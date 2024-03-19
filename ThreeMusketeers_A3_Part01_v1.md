@@ -7,10 +7,28 @@ The 3040 Crypto Pay API is designed to offer a simple yet powerful interface for
 - Change their crypto currency to their desired currency
 
 
-## Endpoints
+## Endpoints, Parameters, and Sample Responses
+```
+1. GET /BankAccount
+GET BankAccount/{BankAccount}?BankAccount=4
 
-
-## Resources
-
-## Sample Requests with Sample Response
-
+{
+   "BankAccountNumber": 890173730
+   "BankAccountHolderName": "HiBye"
+}
+```
+```
+2. GET /CompanyName
+GET CompanyName/{companyID}?companyID=3
+{
+   "CompanyName": "Skip The Dishes"
+   "Company'sBankAccountNumber": 293891827
+}
+```
+```
+3. GET /Currency
+GET Currency/{currencyID}?currencyID=USD
+{
+   "CurrencyValue": 15 
+}
+```
