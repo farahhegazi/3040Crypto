@@ -10,7 +10,7 @@ The 3040 Crypto Pay API is designed to offer a simple yet powerful interface for
 ## Endpoints, Parameters, and Sample Responses
 ```
 1. GET /BankAccount
-GET BankAccount/{BankAccount}?BankAccount=4
+GET BankAccount?BankAccount=4
 
 {
    "BankAccountNumber": 890173730
@@ -19,7 +19,7 @@ GET BankAccount/{BankAccount}?BankAccount=4
 ```
 ```
 2. GET /CompanyName
-GET CompanyName/{companyID}?companyID=3
+GET CompanyName?companyID=3
 {
    "CompanyName": "Skip The Dishes"
    "Company'sBankAccountNumber": 293891827
@@ -27,7 +27,7 @@ GET CompanyName/{companyID}?companyID=3
 ```
 ```
 3. GET /Currency
-GET Currency/{currencyID}?currencyID=USD
+GET Currency?currencyID=USD
 {
    "CurrencyValue": 15 
 }
